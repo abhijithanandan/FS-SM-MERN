@@ -8,6 +8,11 @@ connectDB()
 
 app.get('/', (req, res) => res.send('API Running'));
 
+// Define Middleware
+
+//Body Parser for POST request
+app.use(express.json({ extended: false })); 
+
 // Define Routes
 app.use('/api/users', require('./routes/api/users'));
 app.use('/api/profile', require('./routes/api/profile'));
