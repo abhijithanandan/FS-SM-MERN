@@ -9,6 +9,7 @@ const router = express.Router();
 const User = require('../../models/User');
 const config = require('config');
 
+
 // @route   POST api/users
 // @desc    Test route
 // @access  Pubilc
@@ -65,6 +66,7 @@ router.post(
           id: user.id
         }
       };
+
 
       const token = jwt.sign(
         payload, 
