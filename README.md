@@ -116,37 +116,36 @@ The App can be used on any web browser accessible on Android, iOS, or computer. 
 Here’s how to get started:
 
   * Ensure you have Node.js installed on your system.
-  * If not, follow the Node.js installation guide.
+  * If not, follow the [Node.js installation guide](https://nodejs.org/en/download/package-manager).
   * Ensure you have MongoDB installed on your system.
-  * If not, follow the MongoDB installation guide.
+  * If not, follow the [MongoDB installation guide](https://docs.mongodb.com/manual/installation).
   * Confirm Git is set up on your system.
-  * If not, follow the Git setup guide.
+  * If not, follow the [Git setup guide](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git).
 
 ### Installation
-
 1. Clone this repository using the command:
-   ```sh
-    git clone https://github.com/yourusername/yourprojectname.git
-   ```
+    ```sh
+     git clone https://github.com/yourusername/yourprojectname.git
+    ```
 2. Navigate to the project directory:
-  ```sh
-    cd yourprojectname
-  ```  
+    ```sh
+      cd yourprojectname
+    ```  
 3. Install Required Dependencies:
-  ```sh
-    npm install
-  ```
+    ```sh
+      npm install
+    ```
 4. Environment Variables:
     Set up the necessary environment variables in a .env file in your project root.
-  ```env
-    DATABASE_URL=mongodb+srv://yourdatabaseurl
-    SECRET=yourjsonwebtokenkey
-  ```
+    ```env
+      DATABASE_URL=mongodb+srv://yourdatabaseurl
+      SECRET=yourjsonwebtokenkey
+    ```
 5. Run the Application:
    - Start the server by running:
-   ```sh
-     npm start
-   ```
+    ```sh
+      npm start
+    ```
 6. Now, the app should be running locally on http://localhost:yourport. Adjust the commands and URLs to fit your project details.
 
 
@@ -205,7 +204,7 @@ Project Link: [https://github.com/abhijithanandan/FS-SM-MERN](https://github.com
 <!-- ACKNOWLEDGMENTS -->
 ## Acknowledgments
 
-* Tornotron E Commerce Private Ltd. - [https://abhijithanandan.com](https://abhijithanandan.com)
+* Tornotron E Commerce Private Ltd. - [https://tornotron.com](https://tornotron.com)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
